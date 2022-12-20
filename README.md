@@ -7,9 +7,9 @@
 
 ### Installation
 
-1. Add `load_module ngx_http_stats_module.so;` to `/etc/nginx/nginx.conf`
-2. Restart `/etc/init.d/nginx restart`
-3. In browser go to  (ip/hostname)/ngx_stats
+1. Add load_module ngx_http_stats_module.so;` to `/etc/nginx/nginx.conf
+2. Restart /etc/init.d/nginx restart
+3. In browser go to  [(ip/hostname)/ngx_stats](https://bnchdan.github.io/ngx_stats/demo.html)
 ### Build from source
 
 1. Download nginx corresponding to your current version (Check with `nginx -v`)
@@ -44,6 +44,4 @@
  
  ```
  
- go to  [/ngx_stats](https://bnchdan.github.io/ngx_stats/demo.html)
-
  
