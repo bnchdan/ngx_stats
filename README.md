@@ -9,8 +9,6 @@
 
 ### Build from source
 
-These steps have to be performed on machine with compatible configuration (same nginx, glibc, openssl version etc.)
-
 1. Download nginx corresponding to your current version (Check with `nginx -v`)
     ```bash
    wget https://nginx.org/download/nginx-1.16.1.tar.gz
