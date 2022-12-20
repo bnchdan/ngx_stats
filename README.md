@@ -1,5 +1,6 @@
 # ngx_stats
 
+![image](https://user-images.githubusercontent.com/30780133/208644100-b586a7e4-47bc-4c89-87e3-f98124267789.png)
 
 
 ### Installation
