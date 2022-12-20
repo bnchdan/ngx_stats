@@ -5,7 +5,7 @@
 
 ### Installation
 
-1. Add `load_module ngx_http_js_challenge_module.so;` to `/etc/nginx/nginx.conf`
+1. Add `load_module ngx_http_stats_module.so;` to `/etc/nginx/nginx.conf`
 1. Restart `/etc/init.d/nginx restart`
 
 ### Build from source
@@ -18,7 +18,7 @@
     ```
 2. Compile the module
     ```bash
-    git clone https://github.com/simon987/ngx_http_js_challenge_module
+    git clone https://github.com/bnchdan/ngx_stats
     cd ngx_http_js_challenge_module
     ./build.sh
     ```
