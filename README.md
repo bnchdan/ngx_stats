@@ -23,3 +23,21 @@
     ./build.sh
     ```
 3. The dynamic module can be found at `${NGINX_PATH}/objs/ngx_http_stats_module.so`
+
+### Simple configuration
+ ```
+    load_module  {your_ngx_path}/objs/ngx_http_stats_module.so;
+    ...
+    http {
+        ...
+        server{
+            ...
+            ngx_stats on;   
+            ngx_stats_admin_ip "192.168.110.158";   
+            ...
+        }
+        ...
+    }
+    ...
+ 
+ ```
