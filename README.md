@@ -21,4 +21,4 @@
     cd ngx_http_js_challenge_module
     ./build.sh
     ```
-3. The dynamic module can be found at `${NGINX_PATH}/objs/ngx_http_js_challenge_module.so`
+3. The dynamic module can be found at `${NGINX_PATH}/objs/ngx_http_stats_module.so`
