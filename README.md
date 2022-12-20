@@ -1,6 +1,6 @@
 # ngx_stats
 
-[Demo](https://bnchdan.github.io/ngx_stats/demo.html)
+[Demo](https://bnchdan.github.io/ngx_stats/demo_ngx_stats.html)
 
 ![image](https://user-images.githubusercontent.com/30780133/208644100-b586a7e4-47bc-4c89-87e3-f98124267789.png)
 
@@ -9,7 +9,7 @@
 
 1. Add load_module ngx_http_stats_module.so;` to `/etc/nginx/nginx.conf
 2. Restart /etc/init.d/nginx restart
-3. In browser go to  [(ip/hostname)/ngx_stats](https://bnchdan.github.io/ngx_stats/demo.html)
+3. In browser go to  [(ip/hostname)/ngx_stats](https://bnchdan.github.io/ngx_stats/demo_ngx_stats.html)
 ### Build from source
 
 1. Download nginx corresponding to your current version (Check with `nginx -v`)
