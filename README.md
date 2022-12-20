@@ -19,7 +19,7 @@
 2. Compile the module
     ```bash
     git clone https://github.com/bnchdan/ngx_stats
-    cd ngx_http_js_challenge_module
+    cd ngx_stats
     ./build.sh
     ```
 3. The dynamic module can be found at `${NGINX_PATH}/objs/ngx_http_stats_module.so`
