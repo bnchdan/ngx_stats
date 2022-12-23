@@ -261,7 +261,7 @@ static ngx_int_t server_html_stats_r_p_s(ngx_http_request_t *r) {
             (long int)(((ngx_stats_shm_count_t *)shm_zone->data)->r_per_s[key].count/2), 
             ((ngx_stats_shm_count_t *)shm_zone->data)->r_per_s[key].time
             );
-    json_response = malloc(strlen(json));
+    json_response = malloc(strlen(json)+1);
     strncpy(json_response, json, strlen(json));
     b = ngx_pcalloc(r->pool, sizeof(ngx_buf_t));
     out.buf = b;
