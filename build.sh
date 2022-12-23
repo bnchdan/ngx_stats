@@ -1,5 +1,4 @@
 #!/bin/bash
-export NGINX_PATH=/home/debian/nginx-1.16.1
 
 if [ -z ${NGINX_PATH+x} ]; then
   echo "Please set the NGINX_PATH variable";
