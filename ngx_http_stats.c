@@ -258,7 +258,7 @@ static ngx_int_t server_html_stats_r_p_s(ngx_http_request_t *r) {
     key = (mTime - 1  )% 10 ; // -1 second
     //create JSON
     sprintf( json, "{\"req\":%ld, \"time\":%u}\n",
-            (long int)(((ngx_stats_shm_count_t *)shm_zone->data)->r_per_s[key].count/2), 
+            (long int)(((ngx_stats_shm_count_t *)shm_zone->data)->r_per_s[key].count), 
             ((ngx_stats_shm_count_t *)shm_zone->data)->r_per_s[key].time
             );
     json_response = malloc(strlen(json)+1);
